@@ -12,21 +12,21 @@
 </head>
 <body>
     <!-- 1st Section: Link + Summary -->
-    <div>
+    <div class="hero-and-footer">
         <div>
             <h3>Header Logo</h3>
 
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title.
+            <h2 id="hero-main-text">This website is awesome</h2>
+            <p class="hero-secondary">This website has some subtext that goes here under the main title.
                It's a smaller font and the color is lower contrast.</p>
-            <button>Sign up</button>  
+            <button class="hero-button">Sign up</button>  
         </div>
 
         <div>
             <div>
-                <a href="">header link one</a>
-                <a href="">header link two</a>
-                <a href="">header link three</a>
+                <a class="hero-secondary" href="">header link one</a>
+                <a class="hero-secondary" href="">header link two</a>
+                <a class="hero-secondary" href="">header link three</a>
             </div>
 
             <div>
@@ -37,51 +37,52 @@
 
     <!-- 2nd Section: Images + Subtext -->
     <div>
-        <h2>Some random information.</h2>
-        <div>
-            <div>
-                <img src="" alt="this is a placeholder for an image">
-                <p>this is some subtext under an illustration or image</p>
+        <h2 id="information">My Mains</h2>
+        <div class="second-container">
+            <div class="item">
+                <img class="row-img" src="./images/Claudio.png" alt="this is a placeholder for an image">
+                <p>Claudio Serafino</p>
             </div>
-            <div>
-                <img src="" alt="this is a placeholder for an image">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="item">
+                <img class="row-img" src="./images/Bryan.png" alt="this is a placeholder for an image">
+                <p>Bryan Fury</p>
             </div>
-            <div>
-                <img src="" alt="this is a placeholder for an image">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="item">
+                <img class="row-img" src="./images/Paul.png" alt="this is a placeholder for an image">
+                <p>Paul Phoenix</p>
             </div>
-            <div>
-                <img src="" alt="this is a placeholder for an image">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="item">
+                <img class="row-img" src="./images/Shaheen.png" alt="this is a placeholder for an image">
+                <p>Shaheen</p>
             </div>
         </div>
     </div>
 
     <!-- 3rd Section: Quote -->
-    <div>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's
-           just filling up space, or maybe people will actually read it. Who knows? All
-           I know is that it looks nice.
-        </p>
-        <p>-Thor, God of Thunder</p>
+    <div class="quote-background">
+        <div class="quote-container">
+            <p>"You're only minus if you're a bitch"
+            </p>
+            <p id="signature">-Thor, God of Thunder</p>
+        </div>
     </div>
 
     <!-- 4th Section: Sign Up -->
     <div>
         <!-- Blue container -->
-         <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-         </div>
-
-         <div>
-            <button>Sign up</button>
+         <div class="call-to-action">
+            <div>
+                <h3>Call to action! It's time!</h3>
+                <p class="hero-secondary">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div>
+                <button class="signup-button">Sign up</button>
+            </div>
          </div>
     </div>
 
     <!-- Footnote Section -->
-    <div>
+    <div class="hero-and-footer footer">
         <p>Copyright © The Odin Project 2021</p>
     </div>
 </body>

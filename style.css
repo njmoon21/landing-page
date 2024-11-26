@@ -1,3 +1,118 @@
 * {
     font-family:'Roboto';
+    margin: 0;
+}
+
+.hero-and-footer {
+    background-color: #1f2937;
+}
+
+.hero-and-footer > p, h2, h3  {
+    color: #f9faf8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    margin: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30%;
+    align-items: center;
+}
+
+.signup-button {
+    border-color: #f9faf8;
+    border-width: thin;
+    border-style: solid;
+}
+.row-img {
+    border-radius: 10px;
+    border: 4px solid #3882f6;
+    height: 200px;
+    
+}
+
+.quote-background {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    justify-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.quote-container > p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+
+}
+
+.footer {
+    text-align: center;
+    padding: 35px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding-bottom: 3%;
+}
+
+.item {
+    text-align: center;
+    padding: 0%;
+}
+
+
+button {
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-style: none;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#information {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 2%;
+}
+
+#signature {
+    text-align: right;
+    font-size: 25px;
+    font-weight: 900;
 }
